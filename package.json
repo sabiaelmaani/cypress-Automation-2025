@@ -12,6 +12,7 @@
     "actionItemSuite": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Action Items/*.cy.js'",
     "braveGit": "npx cypress run --browser chrome --spec 'cypress/e2e/Day3_122325/brave-search-git.cy.js'"
   },
+  
   "devDependencies": {
     "cypress": "^15.0.0",
     "cypress-mochawesome-reporter": "^4.0.2",

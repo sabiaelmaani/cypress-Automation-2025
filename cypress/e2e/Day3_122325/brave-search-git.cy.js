@@ -11,6 +11,9 @@ describe('Brave Search Functionality', () => {
         //verify that the URL contains Cypress+testing
         cy.url().should('contain', 'cypress+testing');
 
+        //wait 2 seconds
+        cy.wait(2000);
+
         cy.get('[id=llm-show-more-button]').click();
 
         //verify the text contains "Cypress is a modern, open-source end-to-end testing framework" 
