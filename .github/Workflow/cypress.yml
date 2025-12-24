@@ -24,7 +24,7 @@ jobs:
         run: npm ci
       - name: Run Cypress tests
         run: npm run braveGit
-        continue-on-error: true   # ⭐ IMPORTANT
+        continue-on-error: true  
 
       - name: Upload Mochawesome report (HTML)
         if: always()
